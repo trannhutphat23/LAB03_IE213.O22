@@ -1,0 +1,62 @@
+.wrapper-bai7{
+    background-color: #F9FAFC;
+    min-height: 100vh;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quoteIcon{
+    color: #8E5AFA;
+    font-size: 40px;
+}
+.ava_bai7 {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #DDD6FF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 5px -5px;
+}
+.name_bai7 {
+    text-transform: uppercase;
+    color: #8E5AFA;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.title_bai7 {
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+.text_bai7 {
+    text-align: center;
+    color: grey;
+}
+.sectionInfo {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    transition: all 0.3s linear;
+}
+.slideIcon {
+    background-color: #64748D;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.slideIcon:hover {
+    background-color: #8E5AFA;
+    color: white;
+}
