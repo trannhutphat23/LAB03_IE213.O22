@@ -1,0 +1,46 @@
+.wrapper-bai9 {
+    background-color: #F9FAFC;
+    min-height: 100vh;
+    padding-top: 10px;
+    min-width: 100vw;
+}
+.colors {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    cursor: pointer;
+}
+.generatorBai9 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 20px;
+    padding: 10px 10px;
+}
+.titleBai9 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.btnBai9 {
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0px;
+}
+.inputBai9 {
+    padding: 9px 10px;
+    font-size: 20px;
+    color: grey;
+    border: 0px;
+}
+.colorInputBai9 {
+    background-color: white;
+    border: 0px;
+    width: 50px;
+    height: 40px;
+}
+.formBai9 {
+    display: flex;
+    align-items: center;
+}
